@@ -1,0 +1,66 @@
+  ////////////////////////////////\\
+ // bootstrap-sass-responsive-text \\
+////////////////////////////////////\\
+
+// Set an initial font-size for each breakpoint
+
+$font-size-base-xs:     13px;
+$font-size-base-sm:     14px; 
+$font-size-base-md:     15px;
+$font-size-base-lg:     16px;
+
+// Customize breakpoint line-heights
+
+$line-height-base-md:   $line-height-base;
+$line-height-base-sm:   ($line-height-base-md*0.96);
+$line-height-base-xs:   ($line-height-base-sm*0.96);
+$line-height-base-lg:   ($line-height-base-md*1.04);
+
+// Heading text scaling
+
+$headings-scaling-xs:   1.200; // (Minor Third)
+$headings-scaling-sm:   1.250; // (Major Third)
+$headings-scaling-md:   1.300;
+$headings-scaling-lg:   1.300;
+
+// <h5>
+
+$font-size-h5-xs:       $font-size-base-xs;
+$font-size-h5-sm:       $font-size-base-sm;
+$font-size-h5-md:       $font-size-base-md;
+$font-size-h5-lg:       $font-size-base-lg;
+
+// <h6>
+
+$font-size-h6-xs:       floor(($font-size-h5-xs / $headings-scaling-xs));
+$font-size-h6-sm:       floor(($font-size-h5-sm / $headings-scaling-sm));
+$font-size-h6-md:       floor(($font-size-h5-md / $headings-scaling-md));
+$font-size-h6-lg:       floor(($font-size-h5-lg / $headings-scaling-lg));
+
+// <h4>
+
+$font-size-h4-xs:       ceil(($font-size-h5-xs * $headings-scaling-xs));
+$font-size-h4-sm:       ceil(($font-size-h5-sm * $headings-scaling-sm));
+$font-size-h4-md:       ceil(($font-size-h5-md * $headings-scaling-md));
+$font-size-h4-lg:       ceil(($font-size-h5-lg * $headings-scaling-lg));
+
+// <h3>
+
+$font-size-h3-xs:       ceil(($font-size-h4-xs * $headings-scaling-xs));
+$font-size-h3-sm:       ceil(($font-size-h4-sm * $headings-scaling-sm));
+$font-size-h3-md:       ceil(($font-size-h4-md * $headings-scaling-md));
+$font-size-h3-lg:       ceil(($font-size-h4-lg * $headings-scaling-lg));
+
+// <h2>
+
+$font-size-h2-xs:       ceil(($font-size-h3-xs * $headings-scaling-xs));
+$font-size-h2-sm:       ceil(($font-size-h3-sm * $headings-scaling-sm));
+$font-size-h2-md:       ceil(($font-size-h3-md * $headings-scaling-md));
+$font-size-h2-lg:       ceil(($font-size-h3-lg * $headings-scaling-lg));
+
+// <h1>
+
+$font-size-h1-xs:       ceil(($font-size-h2-xs * $headings-scaling-xs));
+$font-size-h1-sm:       ceil(($font-size-h2-sm * $headings-scaling-sm));
+$font-size-h1-md:       ceil(($font-size-h2-md * $headings-scaling-md));
+$font-size-h1-lg:       ceil(($font-size-h2-lg * $headings-scaling-lg));
