@@ -10,10 +10,6 @@ Use scale values to transform sizes
 
 Allow for different type scales to be applied for each breakpoint
 
-### Note
-
-This changes sizes of headings and body text only. This will not work on text on buttons, badges, tooltips, popovers, carousel controls, and some form elements.
-
 ### Usage
 
 Place both **responsive-less.scss** and **responsive-type-variables.scss** in the bootstrap-sass folder. 
@@ -43,6 +39,16 @@ after
 ``` 
 
 in the _bootstrap.scss file.
+
+### Bower
+
+```
+bower install bootstrap-sass-responsive-text
+```
+
+### Note
+
+This changes sizes of headings and body text only. This will not work on text on buttons, badges, tooltips, popovers, carousel controls, and some form elements.
 
 ### Thanks
 

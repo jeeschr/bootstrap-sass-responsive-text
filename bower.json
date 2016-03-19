@@ -1,0 +1,27 @@
+{
+  "name": "bootstrap-sass-responsive-text",
+  "homepage": "https://github.com/jeeschr/bootstrap-sass-responsive-text",
+  "authors": [
+    "jeeschr <jeschror@gmail.com>"
+  ],
+  "description": "Responsive text for bootstrap sass",
+  "main": "",
+  "moduleType": [],
+  "keywords": [
+    "bootstrap",
+    "sass",
+    "responsive",
+    "typography",
+    "css",
+    "type",
+    "text"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
